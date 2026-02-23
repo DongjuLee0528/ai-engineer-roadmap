@@ -197,3 +197,4 @@ AI Engineer로 성장하기 위한
 ```
 Learning → Implement → Experiment → Archive
 ```
+## 기간 6개월 예상
