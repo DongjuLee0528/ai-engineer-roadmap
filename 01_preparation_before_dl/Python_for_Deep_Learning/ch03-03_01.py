@@ -2,3 +2,6 @@
 
 data = "Hello World"
 print(data)
+
+print("Hello python")
+print("Wellcome to deep learning World")
