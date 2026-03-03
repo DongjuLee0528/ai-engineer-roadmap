@@ -13,3 +13,6 @@ data3 = 8
 print(data1, data2, data3)
 print(data1, data2, data3, sep=",")
 print(data1, data2, data3, end="[END]")
+
+score = 70
+print(f"학생의 점수는{score}점입니다.")
