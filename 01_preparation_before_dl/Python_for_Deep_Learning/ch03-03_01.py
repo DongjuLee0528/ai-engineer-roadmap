@@ -5,3 +5,11 @@ print(data)
 
 print("Hello python")
 print("Wellcome to deep learning World")
+
+data1 = 7
+data2 = 5
+data3 = 8
+
+print(data1, data2, data3)
+print(data1, data2, data3, sep=",")
+print(data1, data2, data3, end="[END]")
