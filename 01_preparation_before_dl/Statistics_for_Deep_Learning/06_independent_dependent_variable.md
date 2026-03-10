@@ -38,3 +38,17 @@
 **예시)** 부모의 소득에 따른 자녀의 성적을 분석할 때 → **자녀의 성적**에 해당
 
 ---
+
+## 독립 변수 vs 종속 변수 — 다른 명칭 정리
+
+| 구분 | 명칭 |
+|------|------|
+| **독립 변수** (원인) | Independent Variable |
+| | 설명 변수 (Explanatory Variable) |
+| | 예측 변수 (Predictor Variable) |
+| **종속 변수** (결과) | Dependent Variable |
+| | 반응 변수 (Response Variable) |
+| | 결과 변수 (Outcome Variable) |
+| | 표적 변수 (Target Variable) |
+
+---
