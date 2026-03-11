@@ -38,3 +38,23 @@ $$P(Y = y \mid X = x)$$
 | **합계** | **90** | **90** | **180** |
 
 ### 주변 확률 (Marginal Probability)
+
+하나의 메일을 뽑았을 때, 학교 계정으로 온 메일일 확률
+
+$$P(\text{학교}) = \frac{70}{180}$$
+
+### 결합 확률 (Joint Probability)
+
+하나의 메일을 뽑았을 때, 학교 계정이면서 동시에 스팸 메일일 확률
+
+$$P(\text{학교} \cap \text{스팸}) = \frac{40}{180}$$
+
+### 조건부 확률 (Conditional Probability)
+
+스팸 메일 중 하나를 뽑았을 때, 학교 계정으로 온 메일일 확률
+
+$$P(\text{학교} \mid \text{스팸}) = \frac{40}{90}$$
+
+---
+
+## 4. 조건부 확률 질량 함수 (Conditional PMF)
