@@ -189,3 +189,42 @@ $$P_X(1) = P_{XY}(1,1) + P_{XY}(1,2) + P_{XY}(1,3) + P_{XY}(1,4) + P_{XY}(1,5)$$
 | $P_X(x)$ | **4/30** | **7/30** | **9/30** | **6/30** | **4/30** | |
 
 ### 파이썬 코드 - 주변 확률 질량 함수
+
+```python
+import matplotlib.pyplot as plt
+
+# Y=1일 때 X의 조건부 분포 시각화
+index = 0
+x = [0, 1, 2, 3, 4]
+plt.bar(x, pmf.iloc[index])
+plt.xticks(x, ["1", "2", "3", "4", "5"])
+plt.title(f"P(X, Y={index + 1})")
+plt.show()
+
+# 주변 확률 질량 함수 계산
+marginal_pmf_x = pmf.sum(axis=0)  # X의 주변 PMF
+print(marginal_pmf_x)
+
+marginal_pmf_y = pmf.sum(axis=1)  # Y의 주변 PMF
+print(marginal_pmf_y)
+```
+
+**실행 결과:**
+
+```
+X
+1    0.133333
+2    0.233333
+3    0.300000
+4    0.200000
+5    0.133333
+dtype: float64
+
+Y
+1    0.100000
+2    0.266667
+3    0.366667
+4    0.166667
+5    0.100000
+dtype: float64
+```
