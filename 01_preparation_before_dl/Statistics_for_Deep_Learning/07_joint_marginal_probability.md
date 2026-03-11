@@ -65,3 +65,16 @@ $$P(X \cap Y) = P(X)P(Y)$$인 경우, 두 사건 $X$와 $Y$는 서로 **독립**
 ---
 
 ## 결합 확률 함수 (Joint Probability Function)
+
+이산확률변수 $X$, $Y$에 대한 결합 확률 함수 $f_{XY}(x_i, y_j)$:
+
+$$f_{XY}(x_i, y_j) = P(X = x_i, Y = y_j)$$
+
+**특징:**
+- $X$가 $x_1, x_2, \ldots$의 값을, $Y$가 $y_1, y_2, \ldots$의 값을 가질 수 있다고 가정
+- 단순히 $f(x, y)$라고 쓰기도 한다. ($X$, $Y$의 결합 확률 분포)
+- $X$와 $Y$의 전체 범위에서 결합확률함수의 값을 모두 더하면 **1**
+
+---
+
+## 결합확률질량함수 (Joint Probability Mass Function)
