@@ -112,3 +112,25 @@ $$\sum_i \sum_j P(X = x_i, Y = y_j) = 1$$
 $$P_{XY}(1, 2) = P(X = 1, Y = 2) = \frac{1}{30}$$
 
 ### 파이썬 코드 - 결합 확률 질량 함수
+
+```python
+import pandas as pd
+
+scores = [1, 2, 3, 4, 5]
+data = [
+    [2, 1, 0, 0, 0],
+    [1, 3, 4, 0, 0],
+    [1, 3, 5, 2, 0],
+    [0, 0, 0, 3, 2],
+    [0, 0, 0, 1, 2]
+]
+
+df = pd.DataFrame(data, index=scores, columns=scores)
+df.columns.name = "X"
+df.index.name = "Y"
+
+pmf = df / df.values.sum()
+print(pmf)
+```
+
+**실행 결과:**
