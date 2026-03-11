@@ -78,3 +78,9 @@ $$f_{XY}(x_i, y_j) = P(X = x_i, Y = y_j)$$
 ---
 
 ## 결합확률질량함수 (Joint Probability Mass Function)
+
+$$P_{XY}(x, y) = P(X = x, Y = y)$$
+
+$$\sum_i \sum_j P(X = x_i, Y = y_j) = 1$$
+
+### 예시 1) 1~9 랜덤 기계
