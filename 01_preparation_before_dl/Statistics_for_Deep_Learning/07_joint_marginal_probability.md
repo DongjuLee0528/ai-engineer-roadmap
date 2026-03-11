@@ -146,3 +146,21 @@ Y
 ```
 
 ### 파이썬 코드 - 히트맵(Heatmap)
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set(font_scale=2)
+plt.rcParams["figure.figsize"] = [20, 16]
+
+ax = sns.heatmap(pmf, annot=True,
+                 xticklabels=[1, 2, 3, 4, 5],
+                 yticklabels=[1, 2, 3, 4, 5])
+plt.title("Heatmap", fontsize=40)
+plt.show()
+```
+
+---
+
+## 주변확률질량함수 (Marginal Probability Mass Function)
