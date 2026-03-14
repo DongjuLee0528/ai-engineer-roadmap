@@ -32,3 +32,13 @@ $$y_1 = \text{햄(ham)}, \quad y_2 = \text{스팸(spam)}$$
 $$P(Y \mid X) = \frac{n(X \cap Y)}{n(X)}$$
  
 ---
+
+## 3. 베이즈 정리 (Bayes' Theorem)
+ 
+$P(Y \mid X)$를 직접 계산하기 어려울 때, 베이즈 정리를 이용한다.
+ 
+### 공식
+ 
+$$P(Y \mid X) = \frac{P(X \mid Y) \, P(Y)}{P(X)}$$
+ 
+$$\text{posterior} \propto \text{likelihood} \times \text{prior}$$
