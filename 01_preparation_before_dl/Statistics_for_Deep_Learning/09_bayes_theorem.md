@@ -112,4 +112,11 @@ $$\underset{y}{\operatorname{argmax}} \, P(y \mid x) = \underset{y}{\operatornam
  
 - $X$ = 텍스트 내 광고성 단어의 개수("특가" 등)
 - likelihood만 고려 시: $X \geq 5$이면 스팸으로 분류
+
+### prior를 반영한 경우
+ 
+prior가 uniform distribution을 따르지 않는다면, prior를 함께 고려해야 한다.
+ 
+예시: $P(Y = \text{스팸}) = 1/3$, $P(Y = \text{햄}) = 2/3$
+ 
  
