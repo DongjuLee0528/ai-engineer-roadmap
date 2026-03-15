@@ -118,5 +118,8 @@ $$\underset{y}{\operatorname{argmax}} \, P(y \mid x) = \underset{y}{\operatornam
 prior가 uniform distribution을 따르지 않는다면, prior를 함께 고려해야 한다.
  
 예시: $P(Y = \text{스팸}) = 1/3$, $P(Y = \text{햄}) = 2/3$
+
+- prior를 반영하면 더욱 정교한 분류가 가능하다.
+- prior 반영 후: $X \geq 6$이면 스팸으로 분류
  
  
