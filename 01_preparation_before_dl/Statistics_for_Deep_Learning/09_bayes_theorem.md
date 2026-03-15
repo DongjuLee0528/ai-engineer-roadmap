@@ -92,3 +92,8 @@ $$= 0.9 \times 0.7 + 0.03 \times 0.3 = 0.63 + 0.009 = 0.639$$
 $$P(\text{스팸} \mid \text{대출}) = \frac{P(\text{대출} \mid \text{스팸}) \, P(\text{스팸})}{P(\text{대출})} = \frac{0.9 \times 0.7}{0.639} \approx 0.986$$
  
 ---
+## 5. 확률 모델 (Probabilistic Models)
+ 
+일반적인 분류 모델은 다음 공식으로 예측 결과 $\hat{y}$를 계산한다.
+ 
+$$\hat{y} = \underset{y}{\operatorname{argmax}} \, P(y \mid x)$$
