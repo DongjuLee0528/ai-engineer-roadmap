@@ -97,3 +97,10 @@ $$P(\text{스팸} \mid \text{대출}) = \frac{P(\text{대출} \mid \text{스팸}
 일반적인 분류 모델은 다음 공식으로 예측 결과 $\hat{y}$를 계산한다.
  
 $$\hat{y} = \underset{y}{\operatorname{argmax}} \, P(y \mid x)$$
+베이즈 정리를 적용하면:
+ 
+$$\underset{y}{\operatorname{argmax}} \, P(y \mid x) = \underset{y}{\operatorname{argmax}} \, \frac{P(x \mid y) P(y)}{P(x)} = \underset{y}{\operatorname{argmax}} \, P(x \mid y) P(y)$$
+ 
+> $P(x)$는 모든 클래스에 대해 동일하므로, **분모 $P(x)$는 무시해도 된다.**
+ 
+---
