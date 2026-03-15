@@ -104,3 +104,12 @@ $$\underset{y}{\operatorname{argmax}} \, P(y \mid x) = \underset{y}{\operatornam
 > $P(x)$는 모든 클래스에 대해 동일하므로, **분모 $P(x)$는 무시해도 된다.**
  
 ---
+
+
+## 6. 최대 우도 추정 (Maximum Likelihood Estimation)
+ 
+가능도(likelihood)가 가장 높은 클래스를 선택하는 방법이다.
+ 
+- $X$ = 텍스트 내 광고성 단어의 개수("특가" 등)
+- likelihood만 고려 시: $X \geq 5$이면 스팸으로 분류
+ 
