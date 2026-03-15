@@ -86,3 +86,9 @@ $$\therefore \quad P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)}$$
 $$P(\text{대출}) = P(\text{대출} \mid \text{스팸}) \, P(\text{스팸}) + P(\text{대출} \mid \text{정상}) \, P(\text{정상})$$
  
 $$= 0.9 \times 0.7 + 0.03 \times 0.3 = 0.63 + 0.009 = 0.639$$
+ 
+**Step 2.** 베이즈 정리 적용
+ 
+$$P(\text{스팸} \mid \text{대출}) = \frac{P(\text{대출} \mid \text{스팸}) \, P(\text{스팸})}{P(\text{대출})} = \frac{0.9 \times 0.7}{0.639} \approx 0.986$$
+ 
+---
