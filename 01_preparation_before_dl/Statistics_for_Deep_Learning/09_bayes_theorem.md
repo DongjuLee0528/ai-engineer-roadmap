@@ -125,4 +125,9 @@ $$\text{posterior} \propto \text{likelihood} \times \text{prior}$$
  
 ---
  
+ ## 7. 정리 및 활용
  
+- **prior를 고려할 때 posterior를 더욱 잘 계산할 수 있다.**
+- 베이즈 정리는 머신러닝 분야에서 끊임없이 등장하는 핵심 개념이다.
+- 대표적인 활용 사례: **나이브 베이즈 분류기 (Naïve Bayes Classifier)**
+  - 최신 딥러닝 모델보다 성능은 낮지만, 기본 모델로 자주 언급된다.
