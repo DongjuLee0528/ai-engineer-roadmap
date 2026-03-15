@@ -51,3 +51,18 @@ $$\text{posterior} \propto \text{likelihood} \times \text{prior}$$
 | $P(X \mid Y)$ | 특정 클래스에서 특정 텍스트가 나올 확률 (**가능도, likelihood**) |
 | $P(Y \mid X)$ | 특정 텍스트가 특정 클래스에서 나올 확률 (**사후 확률, posterior**) |
  
+ ### 유도 과정
+ 
+조건부 확률 정의로부터 유도한다.
+ 
+$$P(A \mid B) = \frac{P(A, B)}{P(B)} \quad \Rightarrow \quad P(A, B) = P(A \mid B) \, P(B)$$
+ 
+$$P(B \mid A) = \frac{P(A, B)}{P(A)} \quad \Rightarrow \quad P(A, B) = P(B \mid A) \, P(A)$$
+ 
+두 식을 같다고 놓으면:
+ 
+$$P(A \mid B) \, P(B) = P(B \mid A) \, P(A)$$
+ 
+$$\therefore \quad P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)}$$
+ 
+---
