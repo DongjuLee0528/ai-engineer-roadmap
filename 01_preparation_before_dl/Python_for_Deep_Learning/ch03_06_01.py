@@ -38,3 +38,18 @@ print(a)
 #append() 메서드는 리스트의 맨 뒤에 원소를 추가하는 메서드다
 #remove() 메서드는 리스트에서 특정 원소를 제거하는 메서드다
 #sort() 메서드는 리스트의 원소를 오름차순으로 정렬하는 메서드다
+
+arr = [1,3,4] #리스트 변수 초기화
+print(arr)
+
+arr.insert(1,2) #인덱스 1에 원소 2 삽입
+print(arr)
+
+arr.append(5) #리스트의 맨 뒤에 원소 5 추가
+print(arr)
+
+arr.remove(3) #리스트에서 원소 3 제거
+print(arr)
+
+arr.sort() #리스트의 원소를 오름차순으로 정렬
+print(arr)
