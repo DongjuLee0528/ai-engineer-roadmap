@@ -74,3 +74,17 @@ row2[0] = 7
 print(arr)
 
 #파이썬에서 2차원 이상의 리스트를 초기화할 때는 리스트 컴프리헨션을 사용한다
+#원소를 8개 포함하는 1차원 리스트 초기화
+arr = [5]*8
+print(arr)
+
+#4*5 크기를 갖는 2차원 리스트 초기화
+arr = [[0]*5 for _ in range(4)]
+print(arr)
+
+#4*5 크기를 갖는 2차원 리스트 초기화
+arr = [[i]*5 for i in range(4)]
+print(arr)
+#4*5 크기를 갖는 2차원 리스트 초기화
+arr = [[(i*5)+j for j in range(5)] for i in range(4)]
+print(arr)
