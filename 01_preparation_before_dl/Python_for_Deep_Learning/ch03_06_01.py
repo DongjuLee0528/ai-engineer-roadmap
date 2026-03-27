@@ -60,3 +60,15 @@ for x in range(10):
     arr.append(x)
     
 print(arr)
+#리스트의 추가 메서드를 이용하여 2차원 리스트를 생성할 수 있다
+arr = []
+row1 = [1,2,3,4,5]
+arr.append(row1)
+print(arr)
+
+row2 = [6,7,8,9,10]
+arr.append(row2)
+print(arr)
+#arr는 row1과 row2의 주소 값을 저장
+row2[0] = 7
+print(arr)
