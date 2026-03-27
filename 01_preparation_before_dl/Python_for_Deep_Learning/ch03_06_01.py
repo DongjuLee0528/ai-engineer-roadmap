@@ -53,3 +53,10 @@ print(arr)
 
 arr.sort() #리스트의 원소를 오름차순으로 정렬
 print(arr)
+
+#리스트는 추가 메서드를 제공한다
+arr = []
+for x in range(10):
+    arr.append(x)
+    
+print(arr)
