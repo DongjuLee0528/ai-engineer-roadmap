@@ -6,3 +6,8 @@
 arr1 = ["컴퓨터","키보드","모니터"]
 arr2 = ["computer","keyboard","monitor"]
 
+data = {}
+for i in range(3):
+    data[arr1[i]] = arr2[i]
+print(data)
+#모든 키를 하나씩 확인할 때는 keys() 메서드를 사용할 수 있다
