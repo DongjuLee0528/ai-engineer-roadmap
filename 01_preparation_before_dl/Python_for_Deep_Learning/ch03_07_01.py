@@ -18,7 +18,7 @@ data["carrot"] = "당근"
 for key in data.keys():
         print("key:",key, "value:",data[key])
 #사전 자료형은 특정한 데이터의 등장 횟수를 셀 때 효과적으로 사용할 수 있다.
-data[1,3,3,5,4,3,2,1,4]
+data = [1,3,3,5,4,3,2,1,4]
 counter = {}
 
 for x in data:
@@ -26,6 +26,7 @@ for x in data:
         counter[x] = 1
     else:
         counter[x] += 1
+
 print(counter)
 #집합 자료형
 #데이터의 중복을 허용하지 않고 순서가 상관없을 때 사용하는 자료형이다
