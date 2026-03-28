@@ -11,3 +11,9 @@ for i in range(3):
     data[arr1[i]] = arr2[i]
 print(data)
 #모든 키를 하나씩 확인할 때는 keys() 메서드를 사용할 수 있다
+data = {}
+data['apple'] = '사과'
+data['banana'] = '바나나'
+data["carrot"] = "당근"
+for key in data.keys():
+        print("key:",key, "value:",data[key])
