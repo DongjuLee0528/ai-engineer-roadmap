@@ -43,3 +43,11 @@ for x in data:
 print("고유한 원소들:",visited)
 #집합 자료형은 remove() 메서드를 사용하여 특정한 원소를 제거할 수 있다
 # 집합 자료형은 list()함수를 이용하여 리스트로 변경할 수 있다.
+dtat = {5,6,7,8,9}
+print(data)
+
+data.remove(7)
+print(data)
+
+arr = list(data)
+print(arr)
