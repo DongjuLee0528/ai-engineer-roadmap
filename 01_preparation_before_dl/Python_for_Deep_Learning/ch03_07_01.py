@@ -31,3 +31,12 @@ print(counter)
 #데이터의 중복을 허용하지 않고 순서가 상관없을 때 사용하는 자료형이다
 #특정한 데이터가 등장한 적 있는지 체크할때 효과적으로 사용된다
 #데이터를 삽입할 때는 add() 메서드를 사용한다
+data = [1,3,3,5,4,3,1,4]
+visited = set()
+for x in data:
+    if x not in visited:
+        visited.add(x)
+    else:
+        print("중복 원소 발견:",x)
+    
+print("고유한 원소들:",visited)
