@@ -55,3 +55,14 @@ print(arr)
 #합집합 연산자:|
 #교집합 연산자:&
 #차집합 연산자:-
+dtat1 ={2,4,5,6,7}
+data2 = {6,7,8,9,10}
+
+data = data1 | data2 #합집합
+print(data)
+
+data = data1 & data2 #교집합
+print(data)
+
+data = data1 - data2 #차집합
+print(data)
