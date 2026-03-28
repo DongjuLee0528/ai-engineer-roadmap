@@ -34,7 +34,7 @@ print(counter)
 data = [1,3,3,5,4,3,1,4]
 visited = set()
 for x in data:
-    if x not in visited:
+    if x not in visited: #데이터가 있는지 체크할 때는 in이나 not in 연산자 사용
         visited.add(x)
     else:
         print("중복 원소 발견:",x)
