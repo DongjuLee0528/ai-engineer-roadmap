@@ -34,3 +34,4 @@ elif age >= 19 and age < 60:
     print("입장료는", 12000, "원입니다")
 elif age >= 60 :
     print("입장료는", 0 ,"원입니다")
+
